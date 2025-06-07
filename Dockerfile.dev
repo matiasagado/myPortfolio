@@ -1,0 +1,23 @@
+# Base image - using Node.js
+# We use a specific version for stability
+FROM node:18-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json first
+# This is a best practice for caching in Docker
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application
+# (This will be overridden by volumes during development)
+COPY . .
+
+# Expose port 3000 for the React development server
+EXPOSE 3000
+
+# Command to run the development server
+CMD ["npm", "start"]

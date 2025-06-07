@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  # Development service for React application
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      # Mount the source code for live reloading
+      - ./:/app
+      # Use container's node_modules (prevents conflicts with host)
+      - /app/node_modules
+    environment:
+      # Enable polling for file changes (helps with certain file systems)
+      - CHOKIDAR_USEPOLLING=true
+      # Set to development mode
+      - NODE_ENV=development
+    # Keep the container running
+    stdin_open: true
+    tty: true
