@@ -108,4 +108,69 @@
 
 .menu-toggle {
   display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+  }
+
+  .menu-icon,
+  .menu-icon::before,
+  .menu-icon::after {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #e2e8f0;
+    transition: all 0.3s ease;
+  }
+
+  .menu-icon {
+    top: 13px;
+  }
+
+  .menu-icon::after,
+  .menu-icon::before {
+    content: "";
+    left: 0;
+  }
+
+  .menu-icon::before {
+    top: -8px;
+  }
+
+  .menu-icon::after {
+    top: 8px;
+  }
+
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0f172a;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+
+  .nav-open {
+    height: 200px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+    margin-left: 0;
+  }
 }
