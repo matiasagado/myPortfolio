@@ -10,7 +10,7 @@ function Hero() {
           <span className="hero-greeting">Hello, I'm</span>
           <span className="hero-name">Matias Agado</span>
         </h1>
-        <h2 className="hero-subtitle">Software Engineer / Developer</h2>
+        <h2 className="hero-subtitle">Software Engineer & Developer</h2>
         <p className="hero-description">
           I'm a Software Engineer based in San Francisco. I'm passionate about
           contributing to meaningful projects that challenge me, help explore
