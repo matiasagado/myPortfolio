@@ -113,7 +113,7 @@
 }
 
 .hero-button.primary {
-  background-color: #8b5cf6;
+  background-color: var(--primary);
   color: white;
   box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
 }
@@ -127,7 +127,7 @@
 .hero-button.secondary {
   background-color: transparent;
   color: #e2e8f0;
-  border: 2px solid #8b5cf6;
+  border: 2px solid var(--primary);
 }
 
 .hero-button.secondary:hover {

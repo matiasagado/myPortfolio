@@ -40,7 +40,7 @@
 .logo-dot {
   width: 8px;
   height: 8px;
-  background-color: #8b5cf6;
+  background-color: var(--primary);
   border-radius: 50%;
   position: relative;
   animation: pulse 2s infinite;
