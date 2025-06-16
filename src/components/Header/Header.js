@@ -21,7 +21,7 @@ function Header() {
             <a href="#home">Home</a>
           </li>
           <li className="nav-item">
-            <a href="#about">About Me</a>
+            <a href="#about">About</a>
           </li>
           <li className="nav-item">
             <a href="#projects">Projects</a>
