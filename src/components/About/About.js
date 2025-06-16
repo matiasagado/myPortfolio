@@ -44,7 +44,7 @@ function About() {
           </ul>
           {two}
         </div>
-        <img src={require("../../assets/tmp.jpeg")} alt="Matias Agado" />
+        <img src="/assets/tmp.jpeg" alt="Temporary" />
       </div>
     </section>
   );
