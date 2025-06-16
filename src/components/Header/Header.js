@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import "./Header.css";
 
 function Header() {
@@ -26,6 +27,11 @@ function Header() {
           </li>
           <li className="nav-item">
             <a href="#contact">Contact</a>
+          </li>
+          <li className="nav-item">
+            <a href="https://github.com/matiasagado">
+              <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
+            </a>
           </li>
         </ul>
       </nav>
