@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #0f172a;
+  background-color: var(--background);
 }
 
 .App-logo {
@@ -39,6 +39,7 @@
 }
 :root {
   --slate: #94a3b8;
+  --background: #0f172a;
   --primary: #8b5cf6;
   --accent: #e2e8f0;
 }

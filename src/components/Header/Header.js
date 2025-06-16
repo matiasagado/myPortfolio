@@ -11,14 +11,15 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <span className="logo-text">
-          <a href="#home">MatiasAgado</a>
-        </span>
+        <span className="logo-text">MatiasAgado</span>
         <div className="logo-dot"></div>
       </div>
 
       <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>
         <ul className="nav-list">
+          <li className="nav-item">
+            <a href="#home">Home</a>
+          </li>
           <li className="nav-item">
             <a href="#about">About Me</a>
           </li>
