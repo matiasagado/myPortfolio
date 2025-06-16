@@ -11,7 +11,7 @@ function Header() {
     <header className="header">
       <div className="logo">
         <span className="logo-text">
-          <a href="#header">MatiasAgado</a>
+          <a href="#home">MatiasAgado</a>
         </span>
         <div className="logo-dot"></div>
       </div>
