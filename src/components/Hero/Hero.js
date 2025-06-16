@@ -12,9 +12,9 @@ function Hero() {
         </h1>
         <h2 className="hero-subtitle">Software Engineer & React Developer</h2>
         <p className="hero-description">
-          I'm a Software Engineer based in San Francisco. I'm passionate about
-          building large-scale, high-impact products, and constantly exploring
-          new technologies.
+          I'm a <b>Software Engineer</b> based in San Francisco. I'm passionate
+          about building large-scale, high-impact products, and constantly
+          exploring new technologies.
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="hero-button primary">
