@@ -30,7 +30,11 @@ function Header() {
             <a href="#contact">Contact</a>
           </li>
           <li className="nav-item">
-            <a href="https://github.com/matiasagado">
+            <a
+              href="https://github.com/matiasagado"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <GitHubIcon style={{ fontSize: 19 }}></GitHubIcon>
             </a>
           </li>
