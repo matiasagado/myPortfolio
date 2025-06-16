@@ -12,7 +12,7 @@ services:
       # Mount the source code for live reloading
       - ./:/app
       # Use container's node_modules (prevents conflicts with host)
-      - /app/node_modules
+      - /app/node_modules 
     environment:
       # Enable polling for file changes (helps with certain file systems)
       - CHOKIDAR_USEPOLLING=true
