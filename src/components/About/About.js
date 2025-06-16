@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import tmpImage from "../../assets/tmp.jpeg";
 
 function About() {
   const one = (
@@ -45,9 +44,7 @@ function About() {
           </ul>
           {two}
         </div>
-        <div className="about-image">
-          <img alt="Matias Agado" src={tmpImage} />
-        </div>
+        <img src={require("../../assets/tmp.jpeg")} alt="Matias Agado" />
       </div>
     </section>
   );

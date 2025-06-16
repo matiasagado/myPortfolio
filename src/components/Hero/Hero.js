@@ -1,4 +1,4 @@
-import React, { useEffect, canvasRef } from "react";
+import React, { canvasRef } from "react";
 import "./Hero.css";
 
 function Hero() {
