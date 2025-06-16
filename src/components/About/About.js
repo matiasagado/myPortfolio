@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import tmpImage from "../../assets/tmp.jpeg";
 
 function About() {
   const one = (
@@ -29,9 +30,9 @@ function About() {
   ];
 
   return (
-    <div className="about">
+    <section className="section" id="about">
       <div className="section-header">
-        <span className="section-title">/ about me</span>
+        <span className="section-title">About Me</span>
       </div>
       <div className="about-content">
         <div className="about-description">
@@ -45,10 +46,10 @@ function About() {
           {two}
         </div>
         <div className="about-image">
-          <img alt="Matias Agado" src="/assets/me2.jpg" />
+          <img alt="Matias Agado" src={tmpImage} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
