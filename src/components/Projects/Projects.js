@@ -15,7 +15,7 @@ function Projects() {
           href="https://github.com/matiasagado"
           target="_blank"
           rel="noopener noreferrer"
-          className="more-link"
+          className="github-button"
         >
           See more on GitHub
         </a>
